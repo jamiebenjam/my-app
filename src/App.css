@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Argesta;
+  src: url(argestadisplay-regular-webfont.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: North;
+  src: url(North\ Carossela.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Sek;
+  src: url(Sekogure.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: Made;
+  src: url(MADEOkineSansPERSONALUSE-Medium.otf);
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: antiquewhite !important;
+  color: #41451A !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div {
+  font-family: Argesta;
 }
+
+.firstName {
+  font-family: North;
+  font-size: 15em;
+}
+
+.lastName {
+  font-family: North;
+  font-size: 15em;
+  padding-left: 18%;
+}
+
+.title {
+  font-family: Sek;
+  font-size: 2em;
+  position: absolute;
+  top: 600px;
+  left: 50px;
+  transform: rotate(-90deg);
+  
+}
+
+.divider {
+  border: 20px solid #41451A;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.portfolio {
+  font-size: 2em;
+  padding-left: 70%;
+  margin-bottom: 10px;
+}
+
+.portfolioImage {
+  height: 30em;
+  /* width: 20em; */
+}
+
+.spacer {
+  padding: 1em;
+}
+
+.blogText {
+  color: black;
+  height: 10em;
+}
+
+.blogTitle {
+  font-family: Made;
+  color: black;
+  font-weight: 900;
+}
+
+.blogImage {
+  /* height: 15em; */
+}
+
+.blogContainer {
+  padding: 50px;
+}
+
+.navTitles {
+  color: #41451A;
+}
+
+.carouselImage {
+  padding: 10px 600px 600px 600px;
+}
+
+.carousel {
+  /* margin: 500px, 100px, 500px, 100px; */
+}
+
+/* .navBar {
+  position: absolute !important;
+  align-items: flex-end !important;
+  
+} */
+
+.me {
+  height: 30%;
+  width: 50%;
+  border-radius: 10% 30% 50% 70%;
+}
+
+
+
+
+
+
