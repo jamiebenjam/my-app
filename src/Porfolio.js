@@ -16,53 +16,9 @@ import ranch from './ranch.png';
 const Porfolio = () => {
   return (
     <div>
-      <Container fluid>
-        {/* <Row>
-          <Carousel className="carousel">
-            <Carousel.Item>
-              <img
-                className="d-block w-100 carouselImage"
-                src={ecom1}
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 carouselImage"
-                src={ecom2}
-                alt="Second slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 carouselImage"
-                src={ecom3}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </Row> */}
+      <Container className="pageContainer">
         <Row>
-          <Col className="portfolio">P o r t f o l i o</Col>
+          <Col className="pageTitle">Portfolio</Col>
         </Row>
         <Row>
           <Col>

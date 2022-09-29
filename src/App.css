@@ -18,9 +18,24 @@
   src: url(MADEOkineSansPERSONALUSE-Medium.otf);
 }
 
+@font-face {
+  font-family: Stretch;
+  src: url(StretchPro.otf);
+}
+
+@font-face {
+  font-family: Cool;
+  src: url(coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: Avi;
+  src: url(Avigea.ttf);
+}
+
 body {
-  background-color: antiquewhite !important;
-  color: #41451A !important;
+  background-color: fafcfe !important;
+  color: #312c2d !important
 }
 
 div {
@@ -28,34 +43,37 @@ div {
 }
 
 .firstName {
-  font-family: North;
-  font-size: 15em;
+  font-family: Avi;
+  font-size: 10em;
+  color: #1c71ea !important;
 }
 
 .lastName {
-  font-family: North;
-  font-size: 15em;
+  font-family: Avi;
+  font-size: 10em;
   padding-left: 18%;
+  color: #1c71ea !important;
 }
 
 .title {
-  font-family: Sek;
+  font-family: Cool;
   font-size: 2em;
   position: absolute;
-  top: 600px;
-  left: 50px;
-  transform: rotate(-90deg);
+  top: 700px;
+  left: 800px;
+  /* transform: rotate(-90deg); */
+  color: #312c2d
   
 }
 
 .divider {
-  border: 20px solid #41451A;
+  border: 20px solid #312c2d;
   padding: 5px;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
-.portfolio {
-  font-size: 2em;
+.pageTitle {
+  font-size: 5em;
   padding-left: 70%;
   margin-bottom: 10px;
 }
@@ -84,12 +102,12 @@ div {
   /* height: 15em; */
 }
 
-.blogContainer {
-  padding: 50px;
+.pageContainer {
+  padding: 40px;
 }
 
 .navTitles {
-  color: #41451A;
+  color: antiquewhite;
 }
 
 .carouselImage {
@@ -106,11 +124,23 @@ div {
   
 } */
 
+.navMenu {
+  font-size: 1.5em;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.navButton {
+  color: red !important;
+}
+
 .me {
   height: 30%;
   width: 50%;
   border-radius: 10% 30% 50% 70%;
 }
+
+
 
 
 

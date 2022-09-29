@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 const About = () => {
   return (
     <div>
-      <Container>
+      <Container className="pageContainer">
         <Image className="me" src={me} alt="jamie" />
       </Container>
     </div>
