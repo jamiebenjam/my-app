@@ -123,7 +123,7 @@ div {
   font-family: Made;
   font-weight: lighter;
   font-size: 1.5em;
-  padding-right: 5em;
+  padding-right: 4em;
   padding-top: 10px;
 }
 
@@ -136,7 +136,7 @@ div {
 .icons {
   position: fixed;
   top: 5.5em;
-  left: 100em;
+  left: 101em;
   padding-top: 10px;
 }
 
@@ -201,12 +201,65 @@ div {
 }
 
 .downloadButton {
-  margin-top: 50% !important;
+  margin-top: 25% !important;
+  display: block;
+  width: 126px;
+  height: 180px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40% !important;
 }
 
 .iconCol {
   text-align: center;
 }
+
+.ecomText {
+  text-align: center;
+  padding-left: 50%;
+  background-image: url('./ecom1.png');
+  height: 100%;
+}
+
+.ecom2 {
+  padding: 50px;
+  width: 70%;
+  height: 90%;
+}
+
+.ecomMainImage {
+ width: 100%;
+}
+
+.listTitle {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.projectTitle {
+  font-family: Made;
+  font-size: 4em;
+  padding-bottom: 10px;
+}
+
+.projectTextItem {
+  font-size: 1.5em;
+}
+
+.github {
+  width: 40px;
+  height: 40px;
+}
+
+.githubLink {
+  margin-top: 6em !important;
+
+}
+
+.ecomDescriptionDiv {
+  height: 50em;
+}
+
 
 
 

@@ -96,165 +96,82 @@ const Porfolio = () => {
                   </Col>
                 </Row>
               </div>
-              <div className="spacer"></div>
-              <div className="pageTitle">Projects</div>
+            </Row>
+          </Container>
+
+          <Container>
+            <Row>
+              <Col>
+                <div className="spacer"></div>
+                <div className="spacer"></div>
+                <div className="pageTitle">Projects</div>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <div className="spacer"></div>
+                <img
+                  src={ecommerce}
+                  alt="Ecommerce"
+                  className="ecomMainImage"
+                />
+              </Col>
             </Row>
           </Container>
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={0.5}>
-          <h1>Ecommerce Site</h1>
+          <Container>
+            <Row>
+              <Col sm={4}>
+                <div className="ecomDescriptionDiv">
+                  <div className="githubLink">
+                    <a
+                      href="https://github.com/jamiebenjam/ecommerce-capstone"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <DiGithubBadge className="github" /> GitHub
+                    </a>
+                    <h1 className="projectTitle">Ecommerce Site</h1>
+                    <ul>
+                      <li className="listTitle">
+                        React frontend & Ruby backend
+                      </li>
+                      <li className="projectTextItem">
+                        User-friendly navigation
+                      </li>
+                      <li className="projectTextItem">Site search</li>
+                      <li className="projectTextItem">Local cart storage</li>
+                      <li className="projectTextItem">
+                        Admin and user functionality
+                      </li>
+                      <li className="projectTextItem">Shop by category</li>
+                      <li className="projectTextItem">Sort by price</li>
+                    </ul>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={8}>
+                <div className="ecomText">
+                  {/* KEEP background image div KEEP */}
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <Container fluid>
+            <Row>
+              <Col>
+                <img src={ecom2} alt="Ecommerce" className="ecom2" />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <img src={ecom3} alt="Ecommerce" />
+              </Col>
+            </Row>
+          </Container>
         </ParallaxLayer>
       </Parallax>
-
-      {/* <Row>
-          <Col>
-            <Carousel variant="dark">
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecommerce}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom1}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom2}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom3}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom4}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom5}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom6}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-            </Carousel>
-          </Col>
-
-          <Col>
-            <p>hello this is my project</p>
-          </Col>
-        </Row>
-
-        <div className="spacer"></div>
-
-        <Row>
-          <Col>
-            <p>Coddee Farm, logic based game, React</p>
-          </Col>
-          <Col>
-            <Carousel>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ranch}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom1}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom2}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom3}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom4}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom5}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-              <CarouselItem>
-                <Card>
-                  <Card.Img
-                    className="portfolioImage"
-                    src={ecom6}
-                    alt="Ecommerce Capstone"
-                  />
-                </Card>
-              </CarouselItem>
-            </Carousel>
-          </Col>
-        </Row>
-      </Container> */}
     </div>
   );
 };
