@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image';
 import { TypeAnimation } from 'react-type-animation';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { BsArrowDownCircle } from 'react-icons/bs';
+import Button from 'react-bootstrap/Button';
 
 const About = () => {
   return (
@@ -55,6 +56,18 @@ const About = () => {
               </p>
             </div>
           </ParallaxLayer>
+          <div>
+            <Button className="downloadButton">
+              <a
+                href="https://github.com/jamiebenjam"
+                target="_blank"
+                rel="noreferrer"
+                className="resumeText"
+              >
+                GitHub
+              </a>
+            </Button>
+          </div>
         </Parallax>
       </Container>
     </div>

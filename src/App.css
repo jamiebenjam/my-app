@@ -89,8 +89,8 @@ div {
 
 .divider {
   border: 20px solid #312c2d;
-  padding: 5px;
-  padding-top: 28px;
+  padding: 10px;
+  padding-top: 39px;
 }
 
 .icons {
@@ -191,8 +191,9 @@ div {
 }
 
 .resumeText {
-  font-family: Cool;
+  font-family: Made;
   color:antiquewhite; 
+  font-size: 1em;
 }
 
 .downloadButton {
@@ -263,9 +264,28 @@ div {
 }
 
 .ranchLarge {
-  height: 60em;
+  height: 50em;
   padding-left: 20em;
   padding-top: 5em;
+}
+
+.ranchSmall {
+  height: 30em;
+}
+
+.githubButton {
+  font-family: Stretch;
+  margin-top: 25% !important;
+  display: block;
+  width: 126px;
+  height: 180px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40% !important;
+}
+
+.findMore {
+    font-family: Cool;
+    font-size: 5em;
+    margin-top: 3em;
 }
 
 

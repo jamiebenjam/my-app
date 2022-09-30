@@ -18,26 +18,13 @@ import ranch4 from './ranch4.png';
 import ranch5 from './ranch5.png';
 import Bounce from 'react-reveal/Bounce';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import { HiDownload } from 'react-icons/hi';
-import { AiOutlineHtml5 } from 'react-icons/ai';
-import { SiJavascript } from 'react-icons/si';
-import { SiReact } from 'react-icons/si';
-import { SiRubyonrails } from 'react-icons/si';
-import { VscRuby } from 'react-icons/vsc';
-import { SiCsswizardry } from 'react-icons/si';
-import { SiPostgresql } from 'react-icons/si';
-import { FaGitAlt } from 'react-icons/fa';
-import { SiSemanticuireact } from 'react-icons/si';
-import { DiBootstrap } from 'react-icons/di';
-import { DiVisualstudio } from 'react-icons/di';
 import { DiGithubBadge } from 'react-icons/di';
-import resume from './Jamie_Benjamin_Resume.pdf';
 import PortfolioParallax1 from './PortfolioParallax1';
 
 const Porfolio = () => {
   return (
     <div>
-      <Parallax pages={5.5}>
+      <Parallax pages={6}>
         <div className="slow" />
         <PortfolioParallax1 />
         <ParallaxLayer offset={1} speed={0.5}>
@@ -93,7 +80,7 @@ const Porfolio = () => {
           </Container>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={0.5}>
+        <ParallaxLayer offset={3.5} speed={0.5}>
           <Container>
             <Row>
               <Col sm={4}>
@@ -130,6 +117,9 @@ const Porfolio = () => {
               </Col>
             </Row>
           </Container>
+        </ParallaxLayer>
+        <ParallaxLayer offset={4} speed={1}>
+          <div className="slow" />
           <Container>
             <Row>
               <Col>
@@ -138,12 +128,26 @@ const Porfolio = () => {
             </Row>
             <Row>
               <Col sm={4}>
-                <img src={ranch2} alt="Ecommerce" />
+                <img src={ranch2} alt="Ecommerce" className="ranchSmall" />
               </Col>
             </Row>
             <Row>
               <Col>
                 <img src={ranch3} alt="Ecommerce" className="ranchLarge" />
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={9}>
+                <p className="findMore">
+                  Find more on my{' '}
+                  <a
+                    href="https://github.com/jamiebenjam"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub!
+                  </a>
+                </p>
               </Col>
             </Row>
           </Container>

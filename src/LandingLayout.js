@@ -23,7 +23,6 @@ import { DiGithubBadge } from 'react-icons/di';
 const LandingLayout = () => {
   return (
     <div>
-      <div></div>
       <Container>
         <Row>
           <Col>
