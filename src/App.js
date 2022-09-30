@@ -1,6 +1,6 @@
 import './App.css';
 import * as React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import LandingLayout from './LandingLayout';
 import Porfolio from './Porfolio';
 import NavBar from './NavBar';

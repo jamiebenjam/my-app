@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
   font-family: Argesta;
   src: url(argestadisplay-regular-webfont.ttf);
@@ -33,6 +35,8 @@
   src: url(Avigea.ttf);
 }
 
+/* general */
+
 body {
   background-color: fafcfe !important;
   color: #312c2d !important
@@ -41,6 +45,23 @@ body {
 div {
   font-family: Argesta;
 }
+
+.spacer {
+  padding: 1em;
+}
+
+.pageTitle {
+  font-family: Cool;
+  font-size: 5em;
+  padding-left: 70%;
+  margin-bottom: 10px;
+}
+
+.pageContainer {
+  padding: 40px;
+}
+
+/* LandingLayout */
 
 .firstName {
   font-family: Avi;
@@ -72,67 +93,6 @@ div {
   padding-top: 28px;
 }
 
-.pageTitle {
-  font-family: Cool;
-  font-size: 5em;
-  padding-left: 70%;
-  margin-bottom: 10px;
-}
-
-.portfolioImage {
-  height: 30em;
-  /* width: 20em; */
-}
-
-.spacer {
-  padding: 1em;
-}
-
-.blogText {
-  color: black;
-  height: 10em;
-}
-
-.blogTitle {
-  font-family: Made;
-  color: black;
-  font-weight: 900;
-}
-
-.blogImage {
-  /* height: 15em; */
-}
-
-.pageContainer {
-  padding: 40px;
-}
-
-.navTitles {
-  color: antiquewhite;
-}
-
-.carouselImage {
-  padding: 10px 600px 600px 600px;
-}
-
-.carousel {
-  /* margin: 500px, 100px, 500px, 100px; */
-}
-
-.navMenu {
-  font-family: Made;
-  font-weight: lighter;
-  font-size: 1.5em;
-  padding-right: 4em;
-  padding-top: 10px;
-}
-
-.me {
-  height: 30%;
-  width: 50%;
-  border-radius: 10% 30% 50% 70%;
-}
-
 .icons {
   position: fixed;
   top: 5.5em;
@@ -152,6 +112,41 @@ div {
   padding: 12px;
 }
 
+/* Blogs */
+
+.blogText {
+  color: black;
+  height: 10em;
+}
+
+.blogTitle {
+  font-family: Made;
+  color: black;
+  font-weight: 900;
+}
+
+/* NavBar */
+
+.navTitles {
+  color: antiquewhite;
+}
+
+.navMenu {
+  font-family: Made;
+  font-weight: lighter;
+  font-size: 1.5em;
+  padding-right: 4em;
+  padding-top: 10px;
+}
+
+/* About */
+
+.me {
+  height: 30%;
+  width: 50%;
+  border-radius: 10% 30% 50% 70%;
+}
+
 .scrollAbout {
   font-family: Stretch;
   font-size: x-large;
@@ -161,8 +156,6 @@ div {
   display: flex;
   font-size: large;
   color: black;
-  
-  /* padding: 40px; */
 }
 
 .arrow {
@@ -179,6 +172,8 @@ div {
   height: 50%;
   padding-right: 500px;
 }
+
+/* Portfolio */
 
 .portfolioIcon {
   height: 50px;
@@ -221,7 +216,7 @@ div {
 
 .ecom2 {
   padding: 50px;
-  width: 70%;
+  width: 100%;
   height: 90%;
 }
 
@@ -258,6 +253,19 @@ div {
 
 .ecomDescriptionDiv {
   height: 50em;
+}
+
+.farmText {
+  text-align: center;
+  padding-left: 50%;
+  background-image: url('./ranch1.png');
+  height: 100%;
+}
+
+.ranchLarge {
+  height: 60em;
+  padding-left: 20em;
+  padding-top: 5em;
 }
 
 
