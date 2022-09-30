@@ -69,10 +69,11 @@ div {
 .divider {
   border: 20px solid #312c2d;
   padding: 5px;
-  padding-top: 25px;
+  padding-top: 28px;
 }
 
 .pageTitle {
+  font-family: Cool;
   font-size: 5em;
   padding-left: 70%;
   margin-bottom: 10px;
@@ -118,20 +119,12 @@ div {
   /* margin: 500px, 100px, 500px, 100px; */
 }
 
-/* .navBar {
-  position: absolute !important;
-  align-items: flex-end !important;
-  
-} */
-
 .navMenu {
+  font-family: Made;
+  font-weight: lighter;
   font-size: 1.5em;
-  padding-right: 10px;
+  padding-right: 5em;
   padding-top: 10px;
-}
-
-.navButton {
-  color: red !important;
 }
 
 .me {
@@ -139,6 +132,83 @@ div {
   width: 50%;
   border-radius: 10% 30% 50% 70%;
 }
+
+.icons {
+  position: fixed;
+  top: 5.5em;
+  left: 100em;
+  padding-top: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  padding-right: 10px;
+
+}
+
+.iconSpacer {
+  padding: 12px;
+}
+
+.scrollAbout {
+  font-family: Stretch;
+  font-size: x-large;
+}
+
+.bio {
+  display: flex;
+  font-size: large;
+  color: black;
+  
+  /* padding: 40px; */
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+}
+
+.bioDiv {
+  display: flex;
+  background-color: #1c71ea;
+  /* border: 20px solid #312c2d; */
+  border-radius: 45px/15px;
+  width: 80%;
+  height: 50%;
+  padding-right: 500px;
+}
+
+.portfolioIcon {
+  height: 50px;
+  width: 50px;
+}
+
+.portfolioIconSpacer {
+  padding: 20px;
+  font-weight: bold
+}
+
+.iconDiv {
+  padding: 20px;
+  margin-top: 50px !important;
+}
+
+.resumeText {
+  font-family: Cool;
+  color:antiquewhite; 
+}
+
+.downloadButton {
+  margin-top: 50% !important;
+}
+
+.iconCol {
+  text-align: center;
+}
+
+
 
 
 
