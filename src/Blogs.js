@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-import Bounce from 'react-reveal/Bounce';
+// import Bounce from 'react-reveal/Bounce';
 
 const Blogs = () => {
   function handleBlog() {
@@ -14,9 +14,9 @@ const Blogs = () => {
     <div>
       <Container className="pageContainer">
         <Row>
-          <Bounce top>
-            <div className="pageTitle">Blogs</div>
-          </Bounce>
+          {/* <Bounce top> */}
+          <div className="pageTitle">Blogs</div>
+          {/* </Bounce> */}
         </Row>
         <Row>
           <Col>

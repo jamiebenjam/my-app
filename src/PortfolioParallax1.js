@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import ecommerce from './ecommerce.png';
-import Bounce from 'react-reveal/Bounce';
+// import Bounce from 'react-reveal/Bounce';
 // import { ParallaxLayer } from '@react-spring/parallax';
 import { HiDownload } from 'react-icons/hi';
 import { AiOutlineHtml5 } from 'react-icons/ai';
@@ -28,9 +28,9 @@ const PortfolioParallax1 = () => {
       {/* <ParallaxLayer speed={1}> */}
       <Container className="pageContainer">
         <Row>
-          <Bounce top>
-            <div className="pageTitle">Portfolio</div>
-          </Bounce>
+          {/* <Bounce top> */}
+          <div className="pageTitle">Portfolio</div>
+          {/* </Bounce> */}
         </Row>
         <Row>
           <div className="iconDiv">

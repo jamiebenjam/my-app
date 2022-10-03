@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { TypeAnimation } from 'react-type-animation';
-import Bounce from 'react-reveal/Bounce';
+// import Bounce from 'react-reveal/Bounce';
 import { AiOutlineHtml5 } from 'react-icons/ai';
 import { SiJavascript } from 'react-icons/si';
 import { SiReact } from 'react-icons/si';
@@ -24,10 +24,10 @@ const LandingLayout = () => {
         <Row>
           <Col>
             <div>
-              <Bounce top>
-                <p className="firstName">Jamie</p>
-                <p className="lastName">Benjamin</p>
-              </Bounce>
+              {/* <Bounce top> */}
+              <p className="firstName">Jamie</p>
+              <p className="lastName">Benjamin</p>
+              {/* </Bounce> */}
             </div>
             <span className="title">
               <TypeAnimation
