@@ -18,7 +18,7 @@ const About = () => {
     <div className="aboutDiv">
       {/* <Container className="pageContainer"> */}
       {/* <Parallax pages={2}> */}
-      <div className="slow" />
+      {/* <div className="slow" /> */}
 
       {/* <ParallaxLayer speed={1}> */}
       <div className="scrollAbout">
