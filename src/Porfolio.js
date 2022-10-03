@@ -97,12 +97,13 @@ const Porfolio = () => {
                     <ul>
                       <li className="listTitle">ReactJS</li>
                       <li className="projectTextItem">JSON-server API</li>
-                      <li className="projectTextItem">3 game speed settings</li>
+                      <li className="projectTextItem">peed settings</li>
                       <li className="projectTextItem">
                         Individual compounding ROI and growth periods per animal
                       </li>
                       <li className="projectTextItem">
-                        Items sent to barn or garden on click based on category
+                        Items sent to barn or garden on click based on item
+                        category
                       </li>
                       {/* <li className="projectTextItem">Shop by category</li>
                       <li className="projectTextItem">Sort by price</li> */}

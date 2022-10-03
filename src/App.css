@@ -39,7 +39,7 @@
 
 body {
   background-color: fafcfe !important;
-  color: #312c2d !important
+  color: #312c2d !important;
 }
 
 div {
@@ -59,6 +59,11 @@ div {
 
 .pageContainer {
   padding: 40px;
+}
+
+.layer {
+  pointer-events: auto;
+  z-index: -1;
 }
 
 /* LandingLayout */
@@ -145,7 +150,7 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100em !important;
-  width: 80%;
+  width: 100%;
   padding: 50px;
 }
 
@@ -153,7 +158,7 @@ div {
   height: 10em;
   width: 10em;
   float: right;
-  margin-right: 1em;
+  margin-right: 4em;
   transform: scaleX(-1);
 
 }
@@ -183,7 +188,7 @@ div {
 
 .bioDiv {
   display: block;
- margin-right: 20px;
+  margin-right: 20px;
 }
 
 .aboutMe {
@@ -195,6 +200,50 @@ div {
 
 .aboutMeDiv {
   padding-left: 4em;
+}
+
+.aboutIcon {
+  height: 10em;
+  width: 10em;
+  padding: 40px;
+  color: antiquewhite;
+
+}
+
+.aboutIconButton {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.aboutIconSpacer {
+  padding-left: 1em;
+}
+
+.aboutIconDiv {
+  display: block;
+  padding-left: 12em;
+}
+
+.connectDiv {
+  width: 100%;
+  margin-top: 70em;
+}
+
+.connect {
+  font-family: Cool;
+  text-align: center;
+  font-size: 6em;
+}
+
+.arrows2 {
+  padding-left: 50em;
+  padding-top: 12em;
+}
+
+.diverImage {
+  margin-top: 2em;
+  margin-left: 56em;
 }
 
 /* Portfolio */
