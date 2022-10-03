@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.78f5b2da.css",
+    "main.js": "/portfolio-site/static/js/main.a079a67d.js",
+    "static/js/27.07ddfad5.chunk.js": "/portfolio-site/static/js/27.07ddfad5.chunk.js",
+    "static/media/me.jpg": "/portfolio-site/static/media/me.61507f5c34b9ec706323.jpg",
+    "static/media/ranch1.png": "/portfolio-site/static/media/ranch1.1df0328a20fe010f73e6.png",
+    "static/media/ecom1.png": "/portfolio-site/static/media/ecom1.489a8c9f5d16e2769103.png",
+    "static/media/ecommerce.png": "/portfolio-site/static/media/ecommerce.9b0cc3d75bee6750a486.png",
+    "static/media/ranch3.png": "/portfolio-site/static/media/ranch3.1a8c8ff295d702d3d1fb.png",
+    "static/media/ranch.png": "/portfolio-site/static/media/ranch.115aa3165ebcc804af15.png",
+    "static/media/ecom2.png": "/portfolio-site/static/media/ecom2.15b8baa264bc358a59ed.png",
+    "static/media/ranch2.png": "/portfolio-site/static/media/ranch2.144b749e560e3e40a10c.png",
+    "static/media/by-the-pool-13-crop.jpeg": "/portfolio-site/static/media/by-the-pool-13-crop.59746b498017c1e46389.jpeg",
+    "static/media/ecom3.png": "/portfolio-site/static/media/ecom3.7a7c65382cc2c662bb7a.png",
+    "static/media/StretchPro.otf": "/portfolio-site/static/media/StretchPro.a2ac1b6e2a9086e61eb1.otf",
+    "static/media/dive.png": "/portfolio-site/static/media/dive.e5032b79281b86e66da5.png",
+    "static/media/argestadisplay-regular-webfont.ttf": "/portfolio-site/static/media/argestadisplay-regular-webfont.9e77f10064ad50e4973f.ttf",
+    "static/media/North Carossela.otf": "/portfolio-site/static/media/North Carossela.29df1782f6ad79e7b823.otf",
+    "static/media/coolvetica rg.otf": "/portfolio-site/static/media/coolvetica rg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/Jamie_Benjamin_Resume.pdf": "/portfolio-site/static/media/Jamie_Benjamin_Resume.966e56b45cd28da14108.pdf",
+    "static/media/Avigea.ttf": "/portfolio-site/static/media/Avigea.4c97e950ddb6badb341c.ttf",
+    "static/media/Sekogure.ttf": "/portfolio-site/static/media/Sekogure.8bfc5b28a6be91977fb8.ttf",
+    "static/media/MADEOkineSansPERSONALUSE-Medium.otf": "/portfolio-site/static/media/MADEOkineSansPERSONALUSE-Medium.8c29f54f39e08b2a4ea1.otf",
+    "index.html": "/portfolio-site/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.78f5b2da.css",
+    "static/js/main.a079a67d.js"
+  ]
+}
