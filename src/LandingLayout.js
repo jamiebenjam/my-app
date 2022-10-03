@@ -1,7 +1,4 @@
 import React from 'react';
-import Porfolio from './Porfolio';
-import Blogs from './Blogs';
-import NavBar from './NavBar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

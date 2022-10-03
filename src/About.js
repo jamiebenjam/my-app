@@ -12,7 +12,6 @@ import { FaMediumM } from 'react-icons/fa';
 import { IoLogoInstagram } from 'react-icons/io';
 import { BsLinkedin } from 'react-icons/bs';
 import { RiCamera3Fill } from 'react-icons/ri';
-import Bounce from 'react-reveal/Bounce';
 
 const About = () => {
   return (
