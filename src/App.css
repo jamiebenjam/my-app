@@ -200,15 +200,14 @@ div {
 }
 
 .aboutIcon {
-  height: 5em;
-  width: 5em;
-  padding: 20px;
+  height: 10em;
+  width: 10em;
+  padding: 40px;
   color: antiquewhite;
   
 }
 
 .aboutIconButton {
-  display: block;
   padding: 5px;
   cursor: pointer;
 }
