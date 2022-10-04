@@ -1,3 +1,125 @@
+/* breakpoints */
+
+@media screen and (max-width: 896px) {
+  body {
+    font-size: 10px !important;
+  }
+
+  .navTitles {
+    font-size: 8px !important;
+  }
+
+  .firstName {
+    font-size: 5em !important;
+  }
+
+  .lastName {
+    font-size: 5em !important;
+  }
+
+  .title {
+    font-size: 6px !important;
+    font-family: Cool;
+    position: absolute;
+    top: 340px !important;
+    left: 200px !important;
+    color: #312c2d
+  }
+
+  .divider {
+    size: 0px;
+  }
+
+  .icons {
+    position: fixed;
+    top: 2px;
+    left: 380px !important;
+    padding-top: 10px;
+  }
+
+  .icon {
+    height: 15px !important;
+    transform: rotate(0deg) !important;
+    padding-right: 0px !important;
+  }
+
+  .arrow {
+    height: 20px !important;
+    width: 20px !important;
+    color: antiquewhite !important;
+
+  }
+
+  .aboutDiv {
+    background-image: url(by-the-pool-14.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130em !important;
+    /* padding: 50px; */
+  }
+  
+  .me {
+    height: 200px !important;
+    width: 300px !important;
+    border-radius: 10% 30% 50% 70%;
+  }
+
+  .diverImage {
+    height: 200px !important;
+    margin-top: 210px;
+    margin-right: 300px !important;
+  }
+
+  .diver {
+    height: 80px !important;
+    margin-top: 400px;
+  }
+
+  .aboutIcon {
+    height: 1em !important;
+    width: 1em !important;
+    padding: 2px !important;
+  }
+
+  .aboutIconButton {
+    size: 8em !important;
+  }
+
+  .bioDiv {
+    text-align: center;
+    font-size: 5px;
+    padding-left: 5px !important;
+  }
+
+  .bio {
+    padding: 5px !important;
+    margin-right: 290px;
+    margin-top: 15px;
+    text-align: center;
+    color: antiquewhite !important;
+  }
+  
+  .aboutMe {
+    padding-top: 2em !important;
+    padding-left: 18px !important;
+    font-size: 2em !important;
+    color: antiquewhite !important;
+
+  }
+  
+  .aboutMeDiv {
+    padding-left: 0em !important;
+    display: block;
+  }
+
+  .aboutIconDiv {
+    padding-left: 0px !important;
+    display: inline-flex !important;
+  }
+
+
+}
+
 /* fonts */
 
 @font-face {
