@@ -18,7 +18,7 @@ const Blogs = () => {
           <div className="pageTitle">Blogs</div>
           {/* </Bounce> */}
         </Row>
-        <Row>
+        <Row className="blogRow">
           <Col>
             <Button
               variant="outline-dark"
@@ -78,7 +78,8 @@ const Blogs = () => {
             </Button>
           </Col>
         </Row>
-        <Row>
+
+        <Row className="blogRow">
           <Col>
             <Button
               variant="outline-dark"

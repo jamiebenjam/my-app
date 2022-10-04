@@ -64,16 +64,12 @@ const About = () => {
       {/* // <ParallaxLayer offset={1} speed={0.5}> */}
       <div className="bioDiv">
         <p className="bio">
-          I'm a recent graduate of the immersive software engineering program at
-          Flatiron School. I’m originally from Ohio with a BA in Communications
-          but spent the past 3 years building a successful portrait photography
-          business in Chicago. I’ve loved being in the arts but am excited to
-          apply my skill set in different ways like creative problem solving as
-          a software engineer. In a short 15 weeks, I’ve gained a firm grasp on
-          JavaScript, React, Ruby, and Ruby on Rails with functional
-          applications to demonstrate this knowledge. I’m looking to be in a
-          position where I can contribute to helping communities or individuals’
-          lives more convenient.
+          I am a photographer turned software engineer with a demonstrated
+          history of public relations and communications. I'm a recent graduate
+          of the immersive software engineering program at Flatiron School. In a
+          short 15 weeks, I’ve gained a firm grasp on JavaScript, React, Ruby,
+          and Ruby on Rails and look forward to applying creative skillset in a
+          new direction.
         </p>
         <img src={diver} alt="diver" className="diverImage" />
       </div>
