@@ -60,14 +60,6 @@ self.__precacheManifest = [
     "url": "/portfolio-site/static/media/me.17fe0f93.jpg"
   },
   {
-    "revision": "e3771b16594c52ebb3e5877bcf338196",
-    "url": "/portfolio-site/static/media/MADEOkineSansPERSONALUSE-Medium.e3771b16.otf"
-  },
-  {
-    "revision": "6e7c0fbeb880bebe6bb9a42211394b6e",
-    "url": "/portfolio-site/static/media/argestadisplay-regular-webfont.6e7c0fbe.ttf"
-  },
-  {
     "revision": "36914708adb32dd10132b311ba7d896a",
     "url": "/portfolio-site/static/media/North Carossela.36914708.otf"
   },
@@ -76,16 +68,24 @@ self.__precacheManifest = [
     "url": "/portfolio-site/static/media/Sekogure.18ce37a1.ttf"
   },
   {
-    "revision": "651b51cc4409a3926f85aa25861852ce",
-    "url": "/portfolio-site/static/media/coolvetica rg.651b51cc.otf"
+    "revision": "e3771b16594c52ebb3e5877bcf338196",
+    "url": "/portfolio-site/static/media/MADEOkineSansPERSONALUSE-Medium.e3771b16.otf"
+  },
+  {
+    "revision": "6e7c0fbeb880bebe6bb9a42211394b6e",
+    "url": "/portfolio-site/static/media/argestadisplay-regular-webfont.6e7c0fbe.ttf"
+  },
+  {
+    "revision": "7f5142ad3a1ba0f226eeb9a57cf8fe77",
+    "url": "/portfolio-site/static/media/Avigea.7f5142ad.ttf"
   },
   {
     "revision": "61072ed99653a07fa792aa5f2a75cae8",
     "url": "/portfolio-site/static/media/StretchPro.61072ed9.otf"
   },
   {
-    "revision": "7f5142ad3a1ba0f226eeb9a57cf8fe77",
-    "url": "/portfolio-site/static/media/Avigea.7f5142ad.ttf"
+    "revision": "651b51cc4409a3926f85aa25861852ce",
+    "url": "/portfolio-site/static/media/coolvetica rg.651b51cc.otf"
   },
   {
     "revision": "25a4be2eb73df348089f40006996b06e",
