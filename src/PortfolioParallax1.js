@@ -19,7 +19,7 @@ import { SiSemanticuireact } from 'react-icons/si';
 import { DiBootstrap } from 'react-icons/di';
 import { DiVisualstudio } from 'react-icons/di';
 import { DiGithubBadge } from 'react-icons/di';
-import resume from './Jamie_Benjamin_Resume.pdf';
+import resume from './Jamie Benjamin SE Resume.pdf';
 
 const PortfolioParallax1 = () => {
   return (
