@@ -1,11 +1,11 @@
 import React from 'react';
-import me from './me.jpg';
+import me from '../images/me.jpg';
 import Image from 'react-bootstrap/Image';
 import { TypeAnimation } from 'react-type-animation';
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import Button from 'react-bootstrap/Button';
-import diver from './dive.png';
+import diver from '../images/dive.png';
 import { AiOutlineMail } from 'react-icons/ai';
 import { DiGithubBadge } from 'react-icons/di';
 import { FaMediumM } from 'react-icons/fa';

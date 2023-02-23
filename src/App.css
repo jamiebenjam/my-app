@@ -51,7 +51,7 @@
   }
 
   .aboutDiv {
-    background-image: url(by-the-pool-14.jpeg);
+    background-image: url(./images/by-the-pool-14.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 130em !important;
@@ -124,37 +124,37 @@
 
 @font-face {
   font-family: Argesta;
-  src: url(argestadisplay-regular-webfont.ttf);
+  src: url(./fonts/argestadisplay-regular-webfont.ttf);
 }
 
 @font-face {
   font-family: North;
-  src: url(North\ Carossela.otf);
+  src: url(./fonts/North\ Carossela.otf);
 }
 
 @font-face {
   font-family: Sek;
-  src: url(Sekogure.ttf);
+  src: url(./fonts/Sekogure.ttf);
 }
 
 @font-face {
   font-family: Made;
-  src: url(MADEOkineSansPERSONALUSE-Medium.otf);
+  src: url(./fonts/MADEOkineSansPERSONALUSE-Medium.otf);
 }
 
 @font-face {
   font-family: Stretch;
-  src: url(StretchPro.otf);
+  src: url(./fonts/StretchPro.otf);
 }
 
 @font-face {
   font-family: Cool;
-  src: url(coolvetica\ rg.otf);
+  src: url(./fonts/coolvetica\ rg.otf);
 }
 
 @font-face {
   font-family: Avi;
-  src: url(Avigea.ttf);
+  src: url(./fonts/Avigea.ttf);
 }
 
 /* general */
@@ -273,7 +273,7 @@ div {
 /* About */
 
 .aboutDiv {
-  background-image: url(by-the-pool-14.jpeg);
+  background-image: url(./images/by-the-pool-14.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 160em !important;
@@ -417,7 +417,7 @@ div {
 .ecomText {
   text-align: center;
   padding-left: 50%;
-  background-image: url('./ecom1.png');
+  background-image: url('./images/ecom1.png');
   height: 100%;
 }
 
@@ -465,7 +465,7 @@ div {
 .farmText {
   text-align: center;
   padding-left: 50%;
-  background-image: url('./ranch1.png');
+  background-image: url('./images/ranch1.png');
   height: 100%;
 }
 
