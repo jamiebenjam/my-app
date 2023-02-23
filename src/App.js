@@ -1,12 +1,12 @@
 import './App.css';
 import * as React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import LandingLayout from './LandingLayout';
-import Porfolio from './Porfolio';
-import NavBar from './NavBar';
-import Blogs from './Blogs';
+import LandingLayout from './pages/LandingLayout';
+import Porfolio from './pages/Porfolio';
+import NavBar from './pages/NavBar';
+import Blogs from './pages/Blogs';
 import AnimatedCursor from 'react-animated-cursor';
-import About from './About';
+import About from './pages/About.js';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {

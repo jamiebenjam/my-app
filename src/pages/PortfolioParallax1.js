@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import ecommerce from './ecommerce.png';
+import ecommerce from '../images/ecommerce.png';
 // import Bounce from 'react-reveal/Bounce';
 // import { ParallaxLayer } from '@react-spring/parallax';
 import { HiDownload } from 'react-icons/hi';
@@ -19,7 +19,7 @@ import { SiSemanticuireact } from 'react-icons/si';
 import { DiBootstrap } from 'react-icons/di';
 import { DiVisualstudio } from 'react-icons/di';
 import { DiGithubBadge } from 'react-icons/di';
-import resume from './Jamie Benjamin SE Resume.pdf';
+import resume from '../files/Jamie Benjamin SE Resume.pdf';
 
 const PortfolioParallax1 = () => {
   return (
