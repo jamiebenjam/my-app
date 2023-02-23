@@ -26,7 +26,7 @@ const Porfolio = () => {
                 <a
                   href="https://github.com/jamiebenjam/ecommerce-capstone"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <DiGithubBadge className="github" /> GitHub
                 </a>
@@ -75,7 +75,7 @@ const Porfolio = () => {
                 <a
                   href="https://github.com/jamiebenjam/react-final-project"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <DiGithubBadge className="github" /> GitHub
                 </a>
@@ -129,7 +129,7 @@ const Porfolio = () => {
               <a
                 href="https://github.com/jamiebenjam"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>{' '}
@@ -137,7 +137,7 @@ const Porfolio = () => {
               <a
                 href="https://www.linkedin.com/in/jamie-benjamin/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 LinkedIn!
               </a>
