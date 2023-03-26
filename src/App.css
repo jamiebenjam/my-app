@@ -23,7 +23,7 @@
     position: absolute;
     top: 340px !important;
     left: 200px !important;
-    color: #312c2d
+    color: #e7ddeb
   }
 
   .divider {
@@ -123,6 +123,11 @@
 /* fonts */
 
 @font-face {
+  font-family: NT;
+  src: url(./fonts/NT.otf);
+}
+
+@font-face {
   font-family: Argesta;
   src: url(./fonts/argestadisplay-regular-webfont.ttf);
 }
@@ -160,12 +165,16 @@
 /* general */
 
 body {
-  background-color: white !important;
-  color: #312c2d !important;
+  background-color: #1b3d25 !important;
+  color: #e7ddeb !important;
 }
 
 div {
   font-family: Argesta;
+}
+
+a {
+  color: #e7ddeb;
 }
 
 .spacer {
@@ -190,16 +199,16 @@ div {
 /* LandingLayout */
 
 .firstName {
-  font-family: Avi;
+  font-family: NT;
   font-size: 10em;
-  color: #1c71ea !important;
+  color: #e7ddeb !important;
 }
 
 .lastName {
-  font-family: Avi;
+  font-family: NT;
   font-size: 10em;
   padding-left: 18%;
-  color: #1c71ea !important;
+  color: #e7ddeb !important;
 }
 
 .title {
@@ -208,7 +217,7 @@ div {
   position: absolute;
   top: 75%;
   left: 40%;
-  color: #312c2d
+  color: #e7ddeb
   
 }
 
@@ -259,7 +268,7 @@ div {
 /* NavBar */
 
 .navTitles {
-  color: #1c71ea;
+  color: #e7ddeb !important;
 }
 
 .navMenu {
@@ -268,6 +277,14 @@ div {
   font-size: 1.5em;
   padding-right: 4em;
   padding-top: 10px;
+}
+
+.navLink:hover {
+  color: red;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* About */
@@ -408,6 +425,8 @@ div {
   width: 126px;
   height: 180px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40% !important;
+  background-color: #5C106C !important;
+  border-color: #E0A0ED !important;
 }
 
 .iconCol {
