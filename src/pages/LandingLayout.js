@@ -97,8 +97,6 @@ const LandingLayout = () => {
       <div className="spacer"></div>
       <div className="spacer"></div>
       <div className="spacer"></div>
-      <div className="divider"></div>
-      {/* <div className="divider"></div> */}
     </div>
   );
 };

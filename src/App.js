@@ -14,14 +14,13 @@ function App() {
     <div>
       <ParallaxProvider>
         <AnimatedCursor
-          innerSize={8}
-          outerSize={32}
-          color="79, 174, 221"
+          innerSize={15}
+          outerSize={100}
+          color="224, 160, 237"
           outerAlpha={0.2}
           innerScale={0.7}
           outerScale={5}
         />
-        <div className="divider"></div>
         <NavBar />
         <Routes>
           <Route path="/" element={<LandingLayout />} />
