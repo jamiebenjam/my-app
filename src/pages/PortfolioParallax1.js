@@ -46,34 +46,36 @@ const PortfolioParallax1 = () => {
                 <SiJavascript className="portfolioIcon" />
                 <div className="portfolioIconSpacer"> Javascript</div>
 
+                <SiRubyonrails className="portfolioIcon" />
+                <div className="portfolioIconSpacer">Ruby on Rails</div>
+
                 <AiOutlineHtml5 className="portfolioIcon" />
                 <div className="portfolioIconSpacer">HTML</div>
 
+                <DiBootstrap className="portfolioIcon" />
+                <div className="portfolioIconSpacer">Bootstrap</div>
+              </Col>
+
+              <Col className="iconCol">
                 <SiReact className="portfolioIcon" />
                 <div className="portfolioIconSpacer">React</div>
 
-                <SiRubyonrails className="portfolioIcon" />
-                <div className="portfolioIconSpacer">Ruby on Rails</div>
-              </Col>
-              <Col className="iconCol">
                 <SiCsswizardry className="portfolioIcon" />
                 <div className="portfolioIconSpacer">CSS</div>
-
-                <FaGitAlt className="portfolioIcon" />
-                <div className="portfolioIconSpacer">Git</div>
 
                 <SiPostgresql className="portfolioIcon" />
                 <div className="portfolioIconSpacer">PostgreSQL</div>
 
-                <VscRuby className="portfolioIcon" />
-                <div className="portfolioIconSpacer">Ruby</div>
-              </Col>
-              <Col className="iconCol">
                 <SiSemanticuireact className="portfolioIcon" />
                 <div className="portfolioIconSpacer">Semantic UI</div>
+              </Col>
 
-                <DiBootstrap className="portfolioIcon" />
-                <div className="portfolioIconSpacer">Bootstrap</div>
+              <Col className="iconCol">
+                <VscRuby className="portfolioIcon" />
+                <div className="portfolioIconSpacer">Ruby</div>
+
+                <FaGitAlt className="portfolioIcon" />
+                <div className="portfolioIconSpacer">Git</div>
 
                 <DiVisualstudio className="portfolioIcon" />
                 <div className="portfolioIconSpacer">Visual Studio Code</div>
