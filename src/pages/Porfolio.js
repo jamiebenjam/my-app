@@ -10,10 +10,12 @@ import ranch3 from '../images/ranch3.png';
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { DiGithubBadge } from 'react-icons/di';
 import PortfolioParallax1 from './PortfolioParallax1';
+import NavBar from './NavBar';
 
 const Porfolio = () => {
   return (
     <div>
+      <NavBar />
       {/* <Parallax pages={6}> */}
       <div className="slow" />
       <PortfolioParallax1 />

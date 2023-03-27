@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import NavBar from './NavBar';
 // import Bounce from 'react-reveal/Bounce';
 
 const Blogs = () => {
@@ -12,6 +13,7 @@ const Blogs = () => {
   }
   return (
     <div>
+      <NavBar />
       <Container className="pageContainer">
         <Row>
           {/* <Bounce top> */}

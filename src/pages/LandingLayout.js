@@ -16,10 +16,12 @@ import { SiSemanticuireact } from 'react-icons/si';
 import { DiBootstrap } from 'react-icons/di';
 import { DiVisualstudio } from 'react-icons/di';
 import { DiGithubBadge } from 'react-icons/di';
+import NavBar from './NavBar';
 
 const LandingLayout = () => {
   return (
     <div>
+      <NavBar />
       <Container>
         <Row>
           <Col>

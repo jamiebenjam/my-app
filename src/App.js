@@ -21,7 +21,6 @@ function App() {
           innerScale={0.7}
           outerScale={5}
         />
-        <NavBar />
         <Routes>
           <Route path="/" element={<LandingLayout />} />
           <Route path="/portfolio" element={<Porfolio />} />

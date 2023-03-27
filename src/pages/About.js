@@ -12,10 +12,12 @@ import { FaMediumM } from 'react-icons/fa';
 import { IoLogoInstagram } from 'react-icons/io';
 import { BsLinkedin } from 'react-icons/bs';
 import { RiCamera3Fill } from 'react-icons/ri';
+import NavBar from './NavBar';
 
 const About = () => {
   return (
     <div className="aboutDiv">
+      <NavBar />
       {/* <Container className="pageContainer"> */}
       {/* <Parallax pages={2}> */}
       {/* <div className="slow" /> */}
