@@ -6,19 +6,23 @@
   }
 
   .navTitles {
-    font-size: 8px !important;
+    font-size: 12px !important;
+  }
+
+  .navMenu {
+    padding-right: 1.5em !important;
   }
 
   .firstName {
-    font-size: 5em !important;
+    font-size: 7em !important;
   }
 
   .lastName {
-    font-size: 5em !important;
+    font-size: 8em !important;
   }
 
   .title {
-    font-size: 6px !important;
+    font-size: 12px !important;
     font-family: Cool;
     position: absolute;
     top: 340px !important;
@@ -31,10 +35,12 @@
   }
 
   .icons {
-    position: fixed;
-    top: 2px;
-    left: 380px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 50% !important;
     padding-top: 10px;
+    left: 0% !important;
   }
 
   .icon {
