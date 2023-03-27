@@ -361,21 +361,16 @@ nav a:hover {
 }
 
 .aboutIconDiv {
-  display: block;
-  padding-left: 12em;
-}
+  display: flex;
+  justify-content: center;}
 
-.connectDiv {
-  width: 100%;
-  margin-top: 0em;
-  
-}
 
 .connect {
   font-family: Cool;
   text-align: center;
   font-size: 6em;
-}
+  color: #1b3d25 !important;
+} 
 
 .arrows2 {
   padding-left: 50em;

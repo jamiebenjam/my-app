@@ -13,6 +13,7 @@ import { IoLogoInstagram } from 'react-icons/io';
 import { BsLinkedin } from 'react-icons/bs';
 import { RiCamera3Fill } from 'react-icons/ri';
 import NavBar from './NavBar';
+import { Col, Row } from 'react-bootstrap';
 
 const About = () => {
   return (
@@ -79,66 +80,72 @@ const About = () => {
       {/* </Parallax> */}
       {/* </Container> */}
       <div className="connectDiv">
-        <p className="connect">Let's Connect</p>
-        <div className="aboutIconDiv">
-          <Button
-            variant="dark"
-            href="mailto:bennythedev@gmail.com"
-            alt="email"
-            className="aboutIconButton"
-          >
-            <AiOutlineMail className="aboutIcon" />
-          </Button>
-          <span className="aboutIconSpacer"></span>
-          <Button
-            variant="dark"
-            href="https://www.linkedin.com/in/jamie-benjamin"
-            target="_blank"
-            className="aboutIconButton"
-          >
-            <BsLinkedin className="aboutIcon" />
-          </Button>
-          <span className="aboutIconSpacer"></span>
+        <Col>
+          <Row>
+            <p className="connect">Let's Connect</p>
+          </Row>
+          <Row>
+            <div className="aboutIconDiv">
+              <Button
+                variant="dark"
+                href="mailto:bennythedev@gmail.com"
+                alt="email"
+                className="aboutIconButton"
+              >
+                <AiOutlineMail className="aboutIcon" />
+              </Button>
+              <span className="aboutIconSpacer"></span>
+              <Button
+                variant="dark"
+                href="https://www.linkedin.com/in/jamie-benjamin"
+                target="_blank"
+                className="aboutIconButton"
+              >
+                <BsLinkedin className="aboutIcon" />
+              </Button>
+              <span className="aboutIconSpacer"></span>
 
-          <Button
-            variant="dark"
-            href="https://github.com/jamiebenjam"
-            target="_blank"
-            className="aboutIconButton"
-          >
-            <DiGithubBadge className="aboutIcon" />
-          </Button>
-          <span className="aboutIconSpacer"></span>
+              <Button
+                variant="dark"
+                href="https://github.com/jamiebenjam"
+                target="_blank"
+                className="aboutIconButton"
+              >
+                <DiGithubBadge className="aboutIcon" />
+              </Button>
+              <span className="aboutIconSpacer"></span>
 
-          <Button
-            variant="dark"
-            href="https://medium.com/@bennythedev"
-            target="_blank"
-            className="aboutIconButton"
-          >
-            <FaMediumM className="aboutIcon" />
-          </Button>
-          <span className="aboutIconSpacer"></span>
+              <Button
+                variant="dark"
+                href="https://medium.com/@bennythedev"
+                target="_blank"
+                className="aboutIconButton"
+              >
+                <FaMediumM className="aboutIcon" />
+              </Button>
+              <span className="aboutIconSpacer"></span>
 
-          <Button
-            variant="dark"
-            href="https://www.instagram.com/jamiebenjam/"
-            target="_blank"
-            className="aboutIconButton"
-          >
-            <IoLogoInstagram className="aboutIcon" />
-          </Button>
-          <span className="aboutIconSpacer"></span>
+              <Button
+                variant="dark"
+                href="https://www.instagram.com/jamiebenjam/"
+                target="_blank"
+                className="aboutIconButton"
+              >
+                <IoLogoInstagram className="aboutIcon" />
+              </Button>
+              <span className="aboutIconSpacer"></span>
 
-          <Button
-            variant="dark"
-            href="https://www.jamie-benjamin.com/"
-            target="_blank"
-            className="aboutIconButton"
-          >
-            <RiCamera3Fill className="aboutIcon" />
-          </Button>
-        </div>
+              <Button
+                variant="dark"
+                href="https://www.jamie-benjamin.com/"
+                target="_blank"
+                className="aboutIconButton"
+              >
+                <RiCamera3Fill className="aboutIcon" />
+              </Button>
+            </div>
+          </Row>
+        </Col>
       </div>
     </div>
   );
