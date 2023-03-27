@@ -117,7 +117,6 @@
     display: inline-flex !important;
   }
 
-
 }
 
 /* fonts */
@@ -247,6 +246,16 @@ a {
 }
 
 /* Blogs */
+
+.blog-row {
+  flex-wrap: inherit !important;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-row {
+    flex-wrap: wrap !important;
+  }
+}
 
 .blogText {
   color: black;

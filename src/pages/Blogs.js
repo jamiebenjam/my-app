@@ -15,13 +15,9 @@ const Blogs = () => {
     <div>
       <NavBar />
       <Container className="pageContainer">
-        <Row>
-          {/* <Bounce top> */}
-          <div className="pageTitle">Blogs</div>
-          {/* </Bounce> */}
-        </Row>
-        <Row className="blogRow">
-          <Col>
+        <div className="pageTitle">Blogs</div>
+        <Col md={6}>
+          <Row className="blog-row">
             <Button
               variant="outline-dark"
               href="https://medium.com/codex/the-dangers-and-differences-of-javascript-innerhtml-innertext-and-textcontent-d82711e873c8"
@@ -51,9 +47,7 @@ const Blogs = () => {
                 </Card.Body>
               </Card>
             </Button>
-          </Col>
 
-          <Col>
             <Button
               variant="outline-dark"
               href="https://medium.com/@bennythedev/type-of-css-inline-75fee11c0a02"
@@ -78,11 +72,9 @@ const Blogs = () => {
                 </Card.Body>
               </Card>
             </Button>
-          </Col>
-        </Row>
+          </Row>
 
-        <Row className="blogRow">
-          <Col>
+          <Row className="blog-row">
             <Button
               variant="outline-dark"
               href="https://medium.com/@bennythedev/how-to-publish-your-react-app-on-github-pages-2b40f2c39c29"
@@ -107,9 +99,7 @@ const Blogs = () => {
                 </Card.Body>
               </Card>
             </Button>
-          </Col>
 
-          <Col>
             <Button
               variant="outline-dark"
               href="https://medium.com/@bennythedev/vs-code-extensions-to-make-your-life-easier-as-a-software-engineer-b7e58f5e4ead"
@@ -134,8 +124,8 @@ const Blogs = () => {
                 </Card.Body>
               </Card>
             </Button>
-          </Col>
-        </Row>
+          </Row>
+        </Col>
       </Container>
     </div>
   );
