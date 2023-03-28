@@ -4,8 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import ecommerce from '../images/ecommerce.png';
-// import Bounce from 'react-reveal/Bounce';
-// import { ParallaxLayer } from '@react-spring/parallax';
 import { HiDownload } from 'react-icons/hi';
 import { AiOutlineHtml5 } from 'react-icons/ai';
 import { SiJavascript } from 'react-icons/si';
@@ -24,13 +22,9 @@ import resume from '../files/Jamie Benjamin SE Resume.pdf';
 const PortfolioParallax1 = () => {
   return (
     <div>
-      {' '}
-      {/* <ParallaxLayer speed={1}> */}
       <Container className="pageContainer">
         <Row>
-          {/* <Bounce top> */}
           <div className="pageTitle">Portfolio</div>
-          {/* </Bounce> */}
         </Row>
         <Row>
           <div className="iconDiv">
@@ -102,7 +96,6 @@ const PortfolioParallax1 = () => {
           </Col>
         </Row>
       </Container>
-      {/* </ParallaxLayer> */}
     </div>
   );
 };
